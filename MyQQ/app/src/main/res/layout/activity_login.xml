@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    tools:context="com.example.a82.myapplication.Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300px"
+        android:src="@mipmap/welcom_logo" />
+
+    <EditText
+        android:hint="用户名"
+        android:layout_width="650px"
+        android:layout_height="110px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550px"
+        android:background="@drawable/editshape"
+        android:id="@+id/username" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:hint="密码"
+        android:layout_width="650px"
+        android:layout_height="110px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="690px"
+        android:background="@drawable/editshape"
+        android:id="@+id/pwd" />
+
+    <Button
+        android:id="@+id/registered"
+        android:layout_marginLeft="90px"
+        android:layout_width="260px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="900px"
+        android:background="#fff"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_marginLeft="430px"
+        android:layout_width="260px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="900px"
+        android:background="#4876FF"
+        android:text="登录"
+        android:textColor="#fff" />
+    <ImageView
+        android:layout_marginRight="30px"
+        android:layout_marginBottom="25px"
+        android:src="@mipmap/icon_account"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignEnd="@+id/username"
+        android:id="@+id/imageView" />
+    <ImageView
+        android:layout_marginBottom="30px"
+        android:src="@mipmap/icon_pwd"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignBottom="@+id/pwd"
+        android:layout_alignStart="@+id/imageView" />
+
+</RelativeLayout>
